@@ -1,8 +1,12 @@
+/* DEFAULT RULES */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+/* HEADER */
 
 .logo {
     line-height: 20px;
@@ -20,5 +24,101 @@ h1 {
     display: inline-block;
     margin-top: 10px;
     vertical-align: middle;
-    font-family: sans-serif;
+}
+
+/* MAIN */
+
+main {
+    background-color: lightgray;
+    padding-top: 30px;
+}
+
+.corpo {
+    width: 60%;
+    background-color: white;
+    margin: auto;
+}
+
+.bottone {
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.bottone2 {
+    color: gray;
+    border-color: lightgray;
+}
+
+#azzurro {
+    background-color: rgb(71, 173, 241);
+    border-collapse: collapse;
+    border-color:  rgb(71, 173, 241);
+    border-radius: 5px;
+}
+
+.ulprincipal {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.frecce {
+    font-size: 20px;
+}
+
+li {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+h2 {
+    margin-top: 30px;
+}
+
+.check {
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 45%;
+    padding: 1px;
+}
+
+.cross {
+    color: red;
+    border: 1px solid red;
+    border-radius: 45%;
+    padding: 1px;
+}
+
+.etichetta {
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.azzurro {
+    background-color: rgb(71, 173, 241);
+}
+
+.viola {
+    background-color: blueviolet;
+}
+
+.verde {
+    background-color: green;
+}
+
+.arancione {
+    background-color: orange;
+}
+
+.rosso {
+    background-color: red;
+}
+
+.verdechiaro {
+    background-color: lightgreen;
 }
