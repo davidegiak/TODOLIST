@@ -8,10 +8,12 @@
 
 /* HEADER */
 
+
 .logo {
     line-height: 20px;
     font-size: 1.4em;
 }
+
 
 .logoboolean {
     margin-top: 10px;
@@ -28,28 +30,46 @@ h1 {
 
 /* MAIN */
 
+
 main {
-    background-color: lightgray;
+    background-color: #f6f8f9;
     padding-top: 30px;
+    height: 100vh;
 }
 
+
 .corpo {
-    width: 60%;
+    width: 50%;
     background-color: white;
     margin: auto;
 }
 
+
+.up {
+    height: 50px;
+}
+
+
+.down {
+    height: 70%;
+}
+
+
 .bottone {
     margin-left: 60px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     color: white;
 }
 
+
 .bottone2 {
-    color: gray;
-    border-color: lightgray;
+    color: #d3d8db;
+    border-color: #d3d8db;
+    background-color: white;
+    border-radius: 5px;
 }
+
 
 #azzurro {
     background-color: rgb(71, 173, 241);
@@ -58,8 +78,8 @@ main {
     border-radius: 5px;
 }
 
+
 .ulprincipal {
-    margin-top: 30px;
     margin-left: 50px;
 }
 
@@ -76,21 +96,21 @@ li {
     margin-top: 20px;
 }
 h2 {
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 .check {
     color: lightgreen;
     border: 1px solid lightgreen;
     border-radius: 45%;
-    padding: 1px;
+    padding: 0 2px;
 }
 
 .cross {
     color: red;
     border: 1px solid red;
     border-radius: 45%;
-    padding: 1px;
+    padding: 0 2px;
 }
 
 .etichetta {
